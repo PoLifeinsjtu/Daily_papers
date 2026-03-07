@@ -17,7 +17,7 @@ def scout_node(state: AgentState):
     
     # 2. 直接调用你的下载函数！
     # 建议日常运行 limit 设为 3-5 篇即可，避免大模型 API 费用过高和人工审核疲劳
-    new_papers = paper_reading.fetch_papers(query=current_query, limit=3)
+    new_papers = paper_reading.fetch_papers(query=current_query, limit=8)
     
     print(f"🎯 [Scout Agent] 任务完成，成功获取 {len(new_papers)} 篇论文移交分析节点。")
     

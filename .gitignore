@@ -1,0 +1,10 @@
+# 忽略所有 PDF 文件
+*.pdf
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 或者特定忽略 Idea_Inbox 和 physics_knowledge_base 目录
+Idea_Inbox/
+physics_knowledge_base/

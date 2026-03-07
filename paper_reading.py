@@ -14,7 +14,7 @@ if API_KEY == "你的_Semantic_Scholar_密钥" or not API_KEY:
 
 # ================= ⚙️ 配置区域 =================
 QUERY = "quantum physics"
-DOWNLOAD_LIMIT = 1
+DOWNLOAD_LIMIT = 16
 SAVE_DIR = "physics_knowledge_base"
 BATCH_SIZE = 100
 MAX_WORKERS = 8   # 并发线程数（建议 6-10）
